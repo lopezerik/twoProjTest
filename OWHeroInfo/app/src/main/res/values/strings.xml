@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">OW Hero Info</string>
+    <string name="genji_button"> Genji</string>
+    <string name="mccree_button"> McCree</string>
+    <string name="tracer_button">Tracer</string>
+    <string name="primary_fire">Primary Fire</string>
+    <string name="secondary_fire">Secondary Fire</string>
+    <string name="lshift">Left Shift</string>
+    <string name="rshift">Right Shift</string>
+    <string name="ult">Ultimate</string>
+    <string name="e_ability">E Ability</string>
+    <string name="passive">Passive Ability</string>
+    <string name="ana_button">Ana</string>
+    <string name="bastion_button">Bastion</string>
+    <string name="doom_button">Doomfist</string>
+    <string name="dva_button">D.Va</string>
+    <string name="hanzo_button">Hanzo</string>
+    <string name="junkrat_button">Junkrat</string>
+    <string name="lucio_button">Lucio</string>
+    <string name="moira_button">Moira</string>
+    <string name="mei_button">Mei</string>
+    <string name="mercy_button">Mercy</string>
+    <string name="reaper_button">Reaper</string>
+    <string name="roadhog_button">Roadhog</string>
+    <string name="rein_button">Reinhardt</string>
+    <string name="soldier_button">Soldier: 76</string>
+    <string name="sombra_button">Sombra</string>
+    <string name="symmetra_button">Symmetra</string>
+    <string name="torb_button">Torbjörn</string>
+    <string name="orisa_button">Orisa</string>
+    <string name="pharah_button">Pharah</string>
+    <string name="widow_button">Widowmaker</string>
+    <string name="winston_button">Winston</string>
+    <string name="zarya_button">Zarya</string>
+    <string name="zen_button">Zenyatta</string>
+</resources>

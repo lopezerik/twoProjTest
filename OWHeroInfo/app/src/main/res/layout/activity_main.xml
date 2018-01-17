@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.erik.owheroinfo.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/ana_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0000ff"
+                android:onClick="showInfo"
+                android:text="@string/ana_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/bastion_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#669900"
+                android:onClick="showInfo"
+                android:text="@string/bastion_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/dva_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ff0066"
+                android:onClick="showInfo"
+                android:text="@string/dva_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/doom_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#996633"
+                android:onClick="showInfo"
+                android:text="@string/doom_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/genji_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00cc00"
+                android:onClick="showInfo"
+                android:text="@string/genji_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/hanzo_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#cc9900"
+                android:onClick="showInfo"
+                android:text="@string/hanzo_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/junkrat_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffcc00"
+                android:onClick="showInfo"
+                android:text="@string/junkrat_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/lucio_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00cc00"
+                android:onClick="showInfo"
+                android:text="@string/lucio_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/mccree_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ff0000"
+                android:onClick="showInfo"
+                android:text="@string/mccree_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/mei_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#3399ff"
+                android:onClick="showInfo"
+                android:text="@string/mei_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/mercy_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffff99"
+                android:onClick="showInfo"
+                android:text="@string/mercy_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/moira_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ff4d4d"
+                android:onClick="showInfo"
+                android:text="@string/moira_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/orisa_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#006600"
+                android:onClick="showInfo"
+                android:text="@string/orisa_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/pharah_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#3366ff"
+                android:onClick="showInfo"
+                android:text="@string/pharah_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/reaper_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#732626"
+                android:onClick="showInfo"
+                android:text="@string/reaper_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/rein_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ccccb3"
+                android:onClick="showInfo"
+                android:text="@string/rein_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/roadhog_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background=" #e6ac00"
+                android:onClick="showInfo"
+                android:text="@string/roadhog_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/soldier_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0000ff"
+                android:onClick="showInfo"
+                android:text="@string/soldier_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/sombra_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#732673"
+                android:onClick="showInfo"
+                android:text="@string/sombra_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/symmetra_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#b3d9ff"
+                android:onClick="showInfo"
+                android:text="@string/symmetra_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/torb_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ff6666"
+                android:onClick="showInfo"
+                android:text="@string/torb_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/tracer_button"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ff9900"
+                android:onClick="showInfo"
+                android:text="@string/tracer_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/widow_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#cc66cc"
+                android:onClick="showInfo"
+                android:text="@string/widow_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/winston_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ebebe0"
+                android:onClick="showInfo"
+                android:text="@string/winston_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/zarya_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ff00ff"
+                android:onClick="showInfo"
+                android:text="@string/zarya_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/zen_button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffff33"
+                android:onClick="showInfo"
+                android:text="@string/zen_button"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
